@@ -1,3 +1,8 @@
 name: Psychotic
 version: 0.0.2
 main: xyz.psydev.Next
+commands:
+  psyjoin:
+    description: Send a fake join message to the server.
+  psyleave:
+    description: Send a fake leave message to the server.

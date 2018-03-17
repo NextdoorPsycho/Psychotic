@@ -1,3 +1,8 @@
 name: ${project.name}
 version: ${project.version}
 main: ${project.main}
+commands:
+  psyjoin:
+    description: Send a fake join message to the server.
+  psyleave:
+    description: Send a fake leave message to the server.
