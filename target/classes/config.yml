@@ -1,0 +1,25 @@
+#############################################
+#		Developer: NextdoorPsycho			#
+#		Made from OpenSource code			#
+#		Enjoy! please post any questions	#
+#		in my pm, and ill help you! woot!   #
+#############################################
+#---= Built for magic, Powered by steam!=---#
+#############################################
+
+#Config: 
+#Simple!
+PsyLeave: "&e%player% left the game"
+PsyJoin: "&e%player% joined the game"
+
+#replace it with 
+#PsyJoin: "  "
+#for no message, or a bug...
+#Permission Nodes: (if you need em' lol...)
+#psydoor.psyjoin
+#psydoor.psyleave
+#psydoor.psyjoin.other
+#psydoor.psyleave.other
+
+
+
