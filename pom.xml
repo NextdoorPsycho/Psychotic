@@ -9,7 +9,7 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<dev.server>D:\EVERYTHING ELSE\Minecraft server\plugins</dev.server>
+		<dev.server>D:\Java\Eclipse\DEV Server\plugins</dev.server>
 		<project.main>xyz.psydev.Next</project.main>
 	</properties>
 	<build>

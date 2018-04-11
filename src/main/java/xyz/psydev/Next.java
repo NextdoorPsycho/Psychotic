@@ -17,14 +17,31 @@ public class Next extends JavaPlugin implements Listener
 
 	public void onEnable()
 	{
-		this.logger.info("IM DUMB AF");
+		this.logger.info("//                                          \r\n" + 
+				"//                                          \r\n" + 
+				"//                                          \r\n" + 
+				"//                                          \r\n" + 
+				"//   __   __       __   ___                 \r\n" + 
+				"//  |__) /__` \\ / |  \\ |__  \\  /            \r\n" + 
+				"//  |    .__/  |  |__/ |___  \\/             \r\n" + 
+				"//                                          \r\n" + 
+				"//        __  ___             ___  ___  __  \r\n" + 
+				"//   /\\  /  `  |  | \\  /  /\\   |  |__  |  \\ \r\n" + 
+				"//  /~~\\ \\__,  |  |  \\/  /~~\\  |  |___ |__/ \r\n" + 
+				"//                                          \r\n" + 
+				"//                                          \r\n" + 
+				"//                                          \r\n" + 
+				"//                                          \r\n" + 
+				"//                                          ");
 	}
-
+	
+	
 	public void onDisable()
 	{
 		PluginDescriptionFile pdfFile = getDescription();
 		this.logger.info(pdfFile.getName() + " Has Been Disabled!");
 		getServer().getPluginManager().removePermission(new Permissions().PsyJoin);
+		
 	}
 
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args)
